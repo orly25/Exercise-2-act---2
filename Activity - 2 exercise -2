@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>INTPROG Activity 1</title>
+  <style>
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GROUP 3 MEMBERS</h1>
+  </header>
+
+  <section>
+    <?php
+    $members = array(
+    array('name' => 'Orly Pantaleon', 'image' => 'orly.jpg'),
+    array('name' => 'Tristan Dave Beldad', 'image' => 'tan.jpg'),
+    array('name' => 'William Se', 'image' => 'se.jpg'),
+    array('name' => 'James Ronel Andrade', 'image' => 'james.jpg'),
+    array('name' => 'Jayson Carl Parro', 'image' => 'toni.jpg')
+    );
+
+    foreach ($members as $member) {
+    echo '<p class="name"><strong>' . $member['name'] . '</strong></p>';
+    echo '<div class="image"><img src="' . $member['image'] . '" alt="photo"></div>';
+    echo '<p></p>';
+    }
+    ?>
+  </section>
+
+  <footer>
+    <h2>INTPROG Activity 1</h2>
+  </footer>
+</body>
+</html>
