@@ -4,35 +4,35 @@ $groupName = "IT3P Integrative Programming - Group 3";
 $members = [
     [
         "name" => "Orly Pantaleon",
-        "image" => "images/orly.jpg",
+        "image" => "orly.jpg",
         "alt" => "Orly",
         "description" => "Hi, my name is Orly Pantaleon! I live in Poblacion, Muntinlupa City and study in Pamantasan Lungsod ng Muntinlupa. I'm in my 3rd year now and I love cats and dogs. I am cheerful and trustworthy.",
         "class" => ""
     ],
     [
         "name" => "Tristan Beldad",
-        "image" => "images/tan.jpg",
+        "image" => "tan.jpg",
         "alt" => "Tristan",
         "description" => "Hello everyone! My name is Tristan Dave A. Beldad, and I’m currently a 3rd Year College at Pamantasan Ng Lungsod Ng Muntinlupa taking a bachelor course in Information Technology. I’m passionate about technology and I’m excited to explore more in this field. Outside of academics, I enjoy playing games and I'm looking forward to making lasting connections and sharing experiences with all of you.",
         "class" => "darker1"
     ],
     [
         "name" => "William Se",
-        "image" => "images/se.jpg",
+        "image" => "se.jpg",
         "alt" => "William",
         "description" => "Hello everyone, I'm William Se, a 3rd year college student at Pamantasan Lungsod ng Muntinlupa. I have a passion for technology and enjoy exploring the latest in software development. I love coffee craft and gaming, which gives me a great balance between the digital and natural worlds. I'm looking forward to meeting new people, learning as much as I can.",
         "class" => ""
     ],
     [
         "name" => "James Andrade",
-        "image" => "images/james.jpg",
+        "image" => "james.jpg",
         "alt" => "James",
         "description" => "Greetings to everyone, My name is James Ronel E. Andrade, an average person who wants an average life but also wants a stable living. I am a regular student who pursues BSIT currently studying at PLMun. I'm residing in Brgy.San Antonio, San Pedro, Laguna which has a 1 hour away from my school. I love listening to music, playing it on my guitar, watching animes and also sleeping. I wanted to learn deeper more on technologies and computer so that it can help for the future job that i want to take.",
         "class" => "darker2"
     ],
     [
         "name" => "Jayson Parro",
-        "image" => "images/toni.jpg",
+        "image" => "toni.jpg",
         "alt" => "Jayson",
         "description" => "Hello! My name is Jayson Carl Parro, and I am a student at PLMun. I am currently studying under the BSIT course. My primary interests include building or coding, and I am excited to connect with others who share similar interests or who can offer new insights.",
         "class" => ""
