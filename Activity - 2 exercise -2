@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>INTPROG Activity 1</title>
-  <style>
-  </style>
+    <title>INTPROG Activity 1</title>
+    <style>
+        /* Add a CSS class for the button */
+        .change-color-button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>GROUP 3 MEMBERS</h1>
-  </header>
+    <header>
+        <h1>GROUP 3 MEMBERS</h1>
+        <button class="change-color-button">Change Background Color</button>
+    </header>
 
-  <section>
-    <?php
-    $members = array(
-    array('name' => 'Orly Pantaleon', 'image' => 'orly.jpg'),
-    array('name' => 'Tristan Dave Beldad', 'image' => 'tan.jpg'),
-    array('name' => 'William Se', 'image' => 'se.jpg'),
-    array('name' => 'James Ronel Andrade', 'image' => 'james.jpg'),
-    array('name' => 'Jayson Carl Parro', 'image' => 'toni.jpg')
-    );
+    <script>
+        const changeColorButton = document.querySelector('.change-color-button');
+        const body = document.body;
 
-    foreach ($members as $member) {
-    echo '<p class="name"><strong>' . $member['name'] . '</strong></p>';
-    echo '<div class="image"><img src="' . $member['image'] . '" alt="photo"></div>';
-    echo '<p></p>';
-    }
-    ?>
-  </section>
-
-  <footer>
-    <h2>INTPROG Activity 1</h2>
-  </footer>
+        changeColorButton.addEventListener('click', () => {
+            body.style.backgroundColor = 'green'; // Change the color to your desired color
+        });
+    </script>
 </body>
 </html>
